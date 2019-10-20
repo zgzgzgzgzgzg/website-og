@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import Index from "./views/Index";
+import Contact from "./components/Contact";
+import About from "./components/About";
+import JoinUs from "./components/JoinUs";
+import Adress from "./components/Adress";
+
 
 Vue.use(Router)
 
@@ -8,8 +14,35 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      redirect:'/index',
+      component: Home,
+      children:[
+        {
+          path:'/index',
+          name:'index',
+          component:Index
+        },
+        {
+          path:'/contact',
+          name:'contact',
+          component:Contact
+        },
+        {
+          path:'/about',
+          name:'about',
+          component:About
+        },
+        {
+          path:'/joinUs',
+          name:'joinUs',
+          component:JoinUs
+        },
+        {
+          path:'/adress',
+          name:'adress',
+          component:Adress
+        },
+      ]
     },
     {
       path: '/about',
