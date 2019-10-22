@@ -1,5 +1,7 @@
 <template>
-    <div>adress</div>
+    <div>
+
+    </div>
 </template>
 
 <script>

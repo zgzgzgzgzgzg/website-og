@@ -6,7 +6,7 @@
                     <div class="slide_inner">
                         <div class="slide_img js-transition-img">
                             <figure class="js-transition-img_inner">
-                                <img src="../assets/logo.png">
+                                <img src="../assets/daima.jpg">
                             </figure>
                         </div>
                     </div>
@@ -16,17 +16,49 @@
                     <div class="slide_inner">
                         <div class="slide_img js-transition-img">
                             <figure class="js-transition-img_inner">
-                                <img src="../assets/logo.png">
+                                <img src="../assets/lighter.jpg">
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="scroll-content" data-scroll-content>
+                <article class="slide slide-1 js-slide">
+                    <div class="slide_inner">
+                        <div class="slide_img js-transition-img">
+                            <figure class="js-transition-img_inner">
+                                <img src="../assets/people.jpg">
                             </figure>
                         </div>
                     </div>
                 </article>
 
-                <article class="slide slide-3 js-slide">
+                <article class="slide slide-2 js-slide">
                     <div class="slide_inner">
                         <div class="slide_img js-transition-img">
                             <figure class="js-transition-img_inner">
-                                <img src="../assets/logo.png">
+                                <img src="../assets/lighter.jpg">
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="scroll-content" data-scroll-content>
+                <article class="slide slide-1 js-slide">
+                    <div class="slide_inner">
+                        <div class="slide_img js-transition-img">
+                            <figure class="js-transition-img_inner">
+                                <img src="../assets/daima.jpg">
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slide slide-2 js-slide">
+                    <div class="slide_inner">
+                        <div class="slide_img js-transition-img">
+                            <figure class="js-transition-img_inner">
+                                <img src="../assets/lighter.jpg">
                             </figure>
                         </div>
                     </div>
@@ -36,51 +68,36 @@
                 <article class="slide slide-1 js-slide">
                     <div class="slide_inner">
                         <div class="slide_sub-title">
-                            <span>project</span>
+                            <span>掌 握</span>
                         </div>
                         <h1 class="slide_title">
                             <div class="js-transiton-title">
-                                Oak Refuge
+                                前 沿 技 术
                             </div>
                         </h1>
                         <div class="slide_img slide_img-proxy"></div>
-                        <div class="slide_project">CorpusStudio</div>
+                        <div class="slide_project">项 目</div>
                     </div>
                 </article>
 
                 <article class="slide slide-2 js-slide">
                     <div class="slide_inner">
                         <div class="slide_sub-title">
-                            <span>project</span>
+                            <span>点 亮</span>
                         </div>
                         <h1 class="slide_title">
                             <div class="js-transiton-title">
-                                Teton Residence
+                                未 来 方 向
                             </div>
                         </h1>
                         <div class="slide_img slide_img-proxy"></div>
-                        <div class="slide_project">Ro Rocket Design</div>
-                    </div>
-                </article>
-
-                <article class="slide slide-3 js-slide">
-                    <div class="slide_inner">
-                        <div class="slide_sub-title">
-                            <span>project</span>
-                        </div>
-                        <h1 class="slide_title">
-                            <div class="js-transiton-title">
-                                Oak Refuge
-                            </div>
-                        </h1>
-                        <div class="slide_img slide_img-proxy"></div>
-                        <div class="slide_project">CorpusStudio</div>
+                        <div class="slide_project">蓝 图</div>
                     </div>
                 </article>
             </div>
-            <div class="scrollbar" data-scrollbar>
-                <div class="scrollbar_handle js-scrollbar_handle"></div>
-            </div>
+<!--            <div class="scrollbar" data-scrollbar>-->
+<!--                <div class="scrollbar_handle js-scrollbar_handle"></div>-->
+<!--            </div>-->
         </div>
         <div class="mask js-mask">
             <div class="mask_slice js-mask_slice"></div>
@@ -164,10 +181,10 @@
         &-3{
             align-items: center;
         }
-        &:last-child{
-            width: 65vw;
-            padding-right: 15vw;
-        }
+        /*&:last-child{*/
+        /*    width: 65vw;*/
+        /*    padding-right: 15vw;*/
+        /*}*/
         &_inner{
             position: relative;
             padding-left: 15vw;
@@ -186,7 +203,7 @@
             left: 7.5vw;
             color: #fff;
             font-size: 4vw;
-            z-index: 2;
+            z-index: 10;
             overflow: hidden;
         }
         &_project{
