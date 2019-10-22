@@ -2,6 +2,7 @@
     <div>
         <div class="scroll" data-scroll>
             <div class="scroll-content" data-scroll-content>
+<!--                前沿技术-->
                 <article class="slide slide-1 js-slide">
                     <div class="slide_inner">
                         <div class="slide_img js-transition-img">
@@ -11,7 +12,7 @@
                         </div>
                     </div>
                 </article>
-
+<!--                点亮打火机-->
                 <article class="slide slide-2 js-slide">
                     <div class="slide_inner">
                         <div class="slide_img js-transition-img">
@@ -23,7 +24,8 @@
                 </article>
             </div>
             <div class="scroll-content" data-scroll-content>
-                <article class="slide slide-1 js-slide">
+<!--                一流团队-->
+                <article class="slide slide-3 js-slide">
                     <div class="slide_inner">
                         <div class="slide_img js-transition-img">
                             <figure class="js-transition-img_inner">
@@ -32,23 +34,24 @@
                         </div>
                     </div>
                 </article>
-
-                <article class="slide slide-2 js-slide">
+<!--                合作伙伴-->
+                <article class="slide slide-4 js-slide">
                     <div class="slide_inner">
                         <div class="slide_img js-transition-img">
                             <figure class="js-transition-img_inner">
-                                <img src="../assets/lighter.jpg">
+                                <img src="../assets/Cooperation.jpg">
                             </figure>
                         </div>
                     </div>
                 </article>
             </div>
             <div class="scroll-content" data-scroll-content>
+<!--                招贤纳士-->
                 <article class="slide slide-1 js-slide">
                     <div class="slide_inner">
                         <div class="slide_img js-transition-img">
                             <figure class="js-transition-img_inner">
-                                <img src="../assets/daima.jpg">
+                                <img src="../assets/join.jpg">
                             </figure>
                         </div>
                     </div>
@@ -58,7 +61,6 @@
                     <div class="slide_inner">
                         <div class="slide_img js-transition-img">
                             <figure class="js-transition-img_inner">
-                                <img src="../assets/lighter.jpg">
                             </figure>
                         </div>
                     </div>
@@ -179,7 +181,13 @@
             align-items: flex-end;
         }
         &-3{
-            align-items: center;
+            align-items: flex-start;
+        }
+        &-4{
+            align-items: flex-end;
+        }
+        &-5{
+            align-items: flex-start;
         }
         /*&:last-child{*/
         /*    width: 65vw;*/
