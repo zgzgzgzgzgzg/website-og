@@ -169,7 +169,8 @@
         }
     }
     .slide{
-        background-color: #111;
+        /*background-color: #111;*/
+        /*background-color: #f5f4f1;*/
         display: flex;
         width: 50vw;
         height: 100%;
@@ -202,20 +203,24 @@
             position: absolute;
             top: 15%;
             left: 5vw;
-            color: rgba(#fff, 0.5);
+            /*color: rgba(#fff, 0.5);*/
+            color: rgba(black,0.5);
             font-size: 1vw;
+
         }
         &_title{
             position: absolute;
             top: 7.5%;
             left: 7.5vw;
-            color: #fff;
+            /*color: #fff;*/
+            color: black;
             font-size: 4vw;
             z-index: 10;
             overflow: hidden;
         }
         &_project{
-            color: #fff;
+            /*color: #fff;*/
+            color: black;
             position: absolute;
             top: 100%;
             right: 5%;

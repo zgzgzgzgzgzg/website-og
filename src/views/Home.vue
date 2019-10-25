@@ -69,6 +69,9 @@ export default {
 }
 </script>
 <style lang="scss">
+  .home{
+    width: 100vw;
+  }
   figure{
     padding: 0;
     margin: 0;
@@ -78,7 +81,8 @@ export default {
     z-index: 10;
     span{
       font-family: "butler", "Times New Roman", "Times", "Baskerville", "Georgia", serif;
-      color: white;
+      /*color: white;*/
+      color: black;
     }
   }
   .scroll{
@@ -105,7 +109,8 @@ export default {
     &_link{
       position: relative;
       display: block;
-      color: rgba(255, 255, 255, 0.5);
+      /*color: rgba(255, 255, 255, 0.5);*/
+      color: rgba(black,0.5);
       text-decoration: none;
       padding: 0 1.5vw;
       font-size: 1.15vw;
@@ -117,7 +122,7 @@ export default {
        width: 100%;
        height: 100%;
        overflow: hidden;
-       background-color: #111;
+       background-color: white;
        transform: translate3d(-100%, 0, 0);
        transition: transform .75s ease;
        z-index: 2;
@@ -127,7 +132,8 @@ export default {
          font-size: 1.15vw;
          transform: translate3d(100%, 0, 0);
          transition: transform .75s ease;
-         color: #fff;
+         /*color: #fff;*/
+         color: black;
          .filter_link:hover &{
            transform: translate3d(0, 0, 0);
          }

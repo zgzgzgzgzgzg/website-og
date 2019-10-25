@@ -93,7 +93,8 @@
             text-transform: uppercase;
             transform-origin: top;
             line-height: 1.075;
-            color: #fff;
+            /*color: #fff;*/
+            color: black;
             font-weight: 500;
             &-line{
                 overflow: hidden;

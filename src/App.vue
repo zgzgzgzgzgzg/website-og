@@ -13,7 +13,8 @@
   color: #2c3e50;
   margin: -8px;
   height: 100%;
-  background-color: #111;
+  /*background-color: #111;*/
+  /*background-color: #f5f4f1;*/
 }
 #nav {
   padding: 30px;

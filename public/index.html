@@ -5,9 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>vue-project</title>
+    <title>经数（上海）科技有限公司</title>
+    <style media="screen" type="text/css">
+      #Loading {
+        top:50%;
+        left:50%;
+        position: absolute;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+        z-index:100;
+      }
+      @-webkit-keyframes ball-beat {
+        50% {
+          opacity: 0.2;
+          -webkit-transform: scale(0.75);
+          transform: scale(0.75); }
+
+        100% {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1); } }
+
+      @keyframes ball-beat {
+        50% {
+          opacity: 0.2;
+          -webkit-transform: scale(0.75);
+          transform: scale(0.75); }
+
+        100% {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1); } }
+
+      .ball-beat > div {
+        background-color: #279fcf;
+        width: 15px;
+        height: 15px;
+        border-radius: 100% !important;
+        margin: 2px;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        display: inline-block;
+        -webkit-animation: ball-beat 0.7s 0s infinite linear;
+        animation: ball-beat 0.7s 0s infinite linear; }
+      .ball-beat > div:nth-child(2n-1) {
+        -webkit-animation-delay: 0.35s !important;
+        animation-delay: 0.35s !important; }
+    </style>
   </head>
   <body>
+<!--  <div id="Loading">-->
+<!--    <div id="dong" class="loader-inner ball-beat">-->
+<!--      <div></div>-->
+<!--      <div></div>-->
+<!--      <div></div>-->
+<!--    </div>-->
+<!--  </div>-->
     <noscript>
       <strong>We're sorry but vue-project doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
@@ -15,3 +68,9 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+<script>
+  // window.οnlοad=function(){
+  //   document.getElementById("dong").classList.remove("loader-inner")
+  //   document.getElementById("dong").classList.remove("ball-beat")
+  // }
+</script>

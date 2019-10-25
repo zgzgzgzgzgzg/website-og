@@ -8,6 +8,7 @@
         <div class="row">
             <div class="col-1-of-3">
                 <div class="card">
+                    <div style="position: relative">
                     <div class="card__side card__side--front-1">
                         <div class="card__title card__title--1">
                             <i class="fas fa-paper-plane"></i>
@@ -23,8 +24,8 @@
                                 <li>精通关系型数据库MySQL Oracle等，SQL优化</li>
                                 <li>熟悉Redis、MQ、elasticsearch等应用优先</li>
                                 <li>精通分布式系统的设计和应用，微服务、缓存、消息、负载均衡等机制和实现优先</li>
-                                <li>热爱技术，对技术有不懈的追求，喜欢研究开源代码</li>
-                                <li>具备良好的沟通能力和团队协作精神，做事有责任心、有想法、喜欢钻研、热爱技术、有较强的自驱能力及抗压能力</li>
+<!--                                <li>热爱技术，对技术有不懈的追求，喜欢研究开源代码</li>-->
+<!--                                <li>具备良好的沟通能力和团队协作精神，做事有责任心、有想法、喜欢钻研、热爱技术、有较强的自驱能力及抗压能力</li>-->
                             </ul>
                         </div>
                     </div>
@@ -34,8 +35,15 @@
                                 <p class="card__price-only">薪资范围：12-25k</p>
                                 <p class="card__price-value"></p>
                             </div>
-                            <a href="#popup" class="btn btn--white">加入</a>
+                            <div class="card__details">
+                                <ul>
+                                    <li>联系方式zhaochao@emitdata.com</li>
+                                    <li>电话：021-65106671</li>
+                                </ul>
+                            </div>
+                            <a href="mailto:zhangchao@emitdata.com" class="btn btn--white">加入</a>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -57,7 +65,7 @@
                                 <li>精通常见开源前端框架（如vue、react、angular等）</li>
                                 <li>精通HTML和CSS，对浏览器兼容性有深刻的理解</li>
                                 <li>优秀的分析问题和解决问题的能力，对解决具有挑战性的问题充满激情</li>
-                                <li>良好的沟通能力，良好的团队合作精神</li>
+<!--                                <li>良好的沟通能力，良好的团队合作精神</li>-->
                             </ul>
                         </div>
                     </div>
@@ -67,7 +75,13 @@
                                 <p class="card__price-only">薪资范围：10-15k</p>
                                 <p class="card__price-value"></p>
                             </div>
-                            <a href="#popup" class="btn btn--white">加入</a>
+                            <div class="card__details">
+                                <ul>
+                                    <li>联系方式zhaochao@emitdata.com</li>
+                                    <li>电话：021-65106671</li>
+                                </ul>
+                            </div>
+                            <a href="mailto:zhangchao@emitdata.com" class="btn btn--white">加入</a>
                         </div>
                     </div>
                 </div>
@@ -90,20 +104,27 @@
                                 <li>完成代码归档和文档开发</li>
                                 <li>计算机、应用数学、统计学等相关专业</li>
                                 <li>熟悉主流的机器学习方法，数据挖掘算法，有数据搜集、统计分析经验</li>
-                                <li>熟悉Hadoop、Hive、Spark、Kafka等大数据组件，有海量数据处理经验者优先</li>
-                                <li>理解ETL过程，拥有DW项目开发经验，熟练掌握SQL/HQL</li>
-                                <li>参加过数据挖掘项目或推荐项目并担任项目核心成员优先</li>
-                                <li>对数据敏感，有对原始数据进行处理，ETL转换，数据挖掘，算法优化调整，有完整数据挖掘或数据分析经历者优先</li>
+<!--                                <li>熟悉Hadoop、Hive、Spark、Kafka等大数据组件，有海量数据处理经验者优先</li>-->
+<!--                                <li>理解ETL过程，拥有DW项目开发经验，熟练掌握SQL/HQL</li>-->
+<!--                                <li>参加过数据挖掘项目或推荐项目并担任项目核心成员优先</li>-->
+<!--                                <li>对数据敏感，有对原始数据进行处理，ETL转换，数据挖掘，算法优化调整，有完整数据挖掘或数据分析经历者优先</li>-->
                             </ul>
                         </div>
                     </div>
                     <div class="card__side card__side--back card__side--back-3">
                         <div class="card__cta">
                             <div class="card__price-box">
-                                <p class="card__price-only">薪资范围：15-25k</p>
+
+                                <p class="card__price-only"> 薪资范围：15-25k</p>
                                 <p class="card__price-value"></p>
                             </div>
-                            <a href="#popup" class="btn btn--white">加入</a>
+                            <div class="card__details">
+                                <ul>
+                                    <li>联系方式zhaochao@emitdata.com</li>
+                                    <li>电话：021-65106671</li>
+                                </ul>
+                            </div>
+                            <a href="mailto:zhangchao@emitdata.com" class="btn btn--white">加入</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +153,8 @@
     }
     .u-center-text {
         text-align: center !important;
-        color: white;
+        /*color: white;*/
+        color: black;
     }
     .card {
         -webkit-perspective: 150rem;
@@ -143,10 +165,10 @@
     }
 
     .card__side {
+        position: relative;
         height: 52rem;
         -webkit-transition: all 0.8s ease;
         transition: all 0.8s ease;
-
         top: 0;
         left: 0;
         width: 100%;
@@ -177,6 +199,8 @@
     .card__side--back {
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        position: absolute;
+        top: 0;
     }
 
     .card__side--back-1 {
@@ -234,10 +258,10 @@
     }
 
     .card__heading {
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 300;
         text-transform: uppercase;
-        text-align: center;
+        text-align: left;
         color: #fff;
         width: 75%;
     }
@@ -259,8 +283,8 @@
     }
 
     .card__details ul li {
-        text-align: center;
-        font-size: 1.5rem;
+        text-align: left;
+        font-size: 1rem;
         padding: 1rem;
     }
 
@@ -269,11 +293,8 @@
     }
 
     .card__cta {
-
         top: 50%;
         left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
         width: 90%;
         text-align: center;
     }
